@@ -20,7 +20,11 @@ public class AuthorService {
 
 		return authorRepository.findAll();
 	}
-
+	
+	public void save(Author author){
+		
+		authorRepository.save(author);
+	}
 
 
 
